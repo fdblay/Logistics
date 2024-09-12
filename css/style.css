@@ -8,8 +8,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     position: fixed;
+    /* max-height: 10%; */
 
 }
 
@@ -153,7 +154,7 @@ nav a {
     background-position: right;
     margin-top: 5rem;
     width: 100%;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     
 }
 
@@ -240,4 +241,56 @@ nav a {
     width: 90%;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.main-cont3 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F1FBFF;
+    padding-bottom: 4rem;
+}
+.cont3-img {
+    width: 50%;
+}
+
+.cont3-img img {
+    width: 100%;
+    height: 100%;
+}
+.cus-service {
+    background-color: #2B5C50;
+    width: 50%;
+    padding-left: 60px;
+}
+.cus-service h2 {
+    padding-top: 90px;
+    font-size: 40px;
+    width: 80%;
+    color: white;
+    
+}
+.procurement {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.procurement h3 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgb(35, 35, 37);
+}
+.procurement p {
+    padding-bottom: 22px;
+    color: white;
+    width: 70%;
+}
+.procurement a {
+    text-decoration: none;
+    color: gold;
+}
+.logistic1 {
+    margin-right: 2rem;
+    border-right: 1px solid wheat;
 }
