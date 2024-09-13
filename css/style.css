@@ -155,7 +155,7 @@ nav a {
     margin-top: 5rem;
     width: 100%;
     /* margin-bottom: 5rem; */
-    
+
 }
 
 .main-cont2 {
@@ -165,25 +165,30 @@ nav a {
     justify-content: space-evenly;
     border-width: 1140px;
     padding-bottom: 5rem;
-    
+
 }
+
 .track-warehouse {
     width: 40%;
-    
+
 }
+
 .invite {
     width: 40%;
     text-align: center;
 }
+
 .invite p {
     color: teal;
 }
-.invite h2 { 
+
+.invite h2 {
     color: #7B7B7B;
     font-size: 40px;
     margin-bottom: 22px;
-    
+
 }
+
 .invite button {
     padding: 10px 30px;
     font-size: large;
@@ -191,21 +196,24 @@ nav a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: teal;
     border: solid rgb(19, 17, 17) thin;
-    
-    
+
+
 }
+
 .invite a {
     text-decoration: none;
     color: white;
 }
+
 .track-warehouse a {
     font-weight: bold;
     margin-bottom: 1rem;
     text-decoration: none;
     color: #5871c2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
+
 .track-warehouse img {
     width: 39px;
     height: 43px;
@@ -214,6 +222,7 @@ nav a {
     border-left: 1px solid rgb(112, 136, 168);
     padding-right: 20px;
 }
+
 .tracking {
     width: 80%;
     background-color: white;
@@ -221,6 +230,7 @@ nav a {
     justify-content: space-between;
     padding-top: 20px;
 }
+
 .tracking p {
     color: #7B7B7B;
     width: 90%;
@@ -228,6 +238,7 @@ nav a {
     padding-bottom: 14px;
 
 }
+
 .warehouses {
     width: 80%;
     background-color: white;
@@ -236,6 +247,7 @@ nav a {
     justify-content: space-between;
     padding-top: 20px;
 }
+
 .warehouses p {
     color: #7B7B7B;
     width: 90%;
@@ -244,13 +256,14 @@ nav a {
 }
 
 .main-cont3 {
-    
+
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #F1FBFF;
     padding-bottom: 4rem;
 }
+
 .cont3-img {
     width: 50%;
 }
@@ -259,11 +272,13 @@ nav a {
     width: 100%;
     height: 100%;
 }
+
 .cus-service {
     background-color: #2B5C50;
     width: 50%;
     padding-left: 60px;
 }
+
 .cus-service h2 {
     padding-top: 90px;
     font-size: 40px;
@@ -271,27 +286,32 @@ nav a {
     color: white;
     border-bottom: 1px solid white;
 }
+
 .procurement {
     padding-top: 40px;
     display: flex;
     justify-content: space-evenly;
 }
+
 .procurement h3 {
     font-weight: bold;
     padding-bottom: 20px;
     color: rgb(35, 35, 37);
 }
+
 .procurement p {
     padding-bottom: 22px;
     color: white;
     width: 70%;
 }
+
 .procurement a {
     text-decoration: none;
     color: gold;
     padding-right: 5px;
     border-right: 1px solid white;
 }
+
 .logistic1 {
     margin-right: 2rem;
     border-right: 1px solid wheat;
@@ -299,26 +319,30 @@ nav a {
 
 .qoutation {
     margin: auto;
-    
+
     width: 80%;
     display: flex;
     justify-content: center;
     font-size: 12px;
 }
+
 .qoute-intro {
     width: 35%;
 }
+
 .qoute-intro h1 {
     font-size: 44px;
     color: #232F55;
     margin-bottom: 22px;
 }
+
 .qoute-intro p {
     font-size: 18px;
     color: #232f5560;
     width: 90%;
     margin-bottom: 32px;
 }
+
 .qoute-intro a {
     text-decoration: none;
     color: white;
@@ -336,6 +360,7 @@ nav a {
     margin-bottom: 20px;
 
 }
+
 .forms a {
     text-decoration: none;
     color: white;
@@ -344,16 +369,19 @@ nav a {
     font-size: 16px;
     background-color: teal;
     border-left: 1px solid white;
-    
+
 }
+
 .forms input {
     border: none;
     border-right: 2px solid teal;
 
 }
+
 .forms label {
     color: #232F55;
 }
+
 .form1 {
     padding-top: 40px;
     display: flex;
@@ -367,6 +395,7 @@ nav a {
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
+
 .form2 {
     display: flex;
     justify-content: space-evenly;
@@ -376,20 +405,138 @@ nav a {
 .form3 {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
+
 .form3 input {
     width: 50%;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
+
 .form4 {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
-.form4 input{
+
+.form4 input {
     width: 80%;
     padding-bottom: 20px;
+}
+
+.location {
+    width: 100%;
+}
+
+.google-map {
+    padding-bottom: 40%;
+    position: relative;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 80%;
+    left: 0;
+    position: absolute;
+}
+
+.directory {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    right: 0;
+}
+
+.directory h2 {
+    width: 46.4%;
+    font-size: 24px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.available {
+    padding-left: 29px;
+    padding-top: 29px;
+    padding-right: 29px;
+    padding-bottom: 30px;
+    width: 35.6%;
+    background-color: white;
+    color: #7B7B7B;
+    line-height: 1.5;
+
+
+
+}
+
+.available a {
+    text-decoration: none;
+}
+
+.available hr {
+    margin-bottom: 14px;
+    color: teal;
+}
+
+#mail {
+    padding-bottom: 14px;
+}
+
+footer {
+    padding-left: 100px;
+    margin-top: -9%;
+    padding-top: 5%;
+    width: 100%;
+    background-color: #1D2547;
+
+}
+
+.sub-foot {
+    width: 80%;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-evenly;  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+.sub-foot a {
+    color: #c2c5db;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.sub-foot h3 {
+    font-size: 20px;
+    color: wheat;
+    border-left: 1px solid white;
+}
+.sub-foot ul {
+    list-style: none;
+    padding-top: 5%;
+   
+}
+.foot1 p {
+    width: 70%;
+    padding-top: 5%;
+    color: #c2c5db;
+}
+
+.footer-socials {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+
+    width: 40%;
 }
